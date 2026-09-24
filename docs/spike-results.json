@@ -1,0 +1,458 @@
+{
+  "note": "Synthetic Kokoro audio; does not validate learner accuracy. Host CPU, not phone benchmark.",
+  "model_load_seconds": 1.244129041209817,
+  "peak_rss_bytes": 706019328,
+  "results": [
+    {
+      "id": "e01",
+      "text": "ship",
+      "expected": [
+        "ʃ",
+        "ɪ",
+        "p"
+      ],
+      "heard": [
+        "ʃ",
+        "e",
+        "p",
+        "e"
+      ],
+      "seconds": 0.124,
+      "audio_seconds": 1.175
+    },
+    {
+      "id": "e02",
+      "text": "sheep",
+      "expected": [
+        "ʃ",
+        "iː",
+        "p"
+      ],
+      "heard": [
+        "ʃ",
+        "iː",
+        "p",
+        "ʌ"
+      ],
+      "seconds": 0.095,
+      "audio_seconds": 1.225
+    },
+    {
+      "id": "e03",
+      "text": "bit",
+      "expected": [
+        "b",
+        "ɪ",
+        "t"
+      ],
+      "heard": [
+        "b",
+        "ɛ",
+        "t"
+      ],
+      "seconds": 0.1,
+      "audio_seconds": 1.175
+    },
+    {
+      "id": "e04",
+      "text": "beat",
+      "expected": [
+        "b",
+        "iː",
+        "t"
+      ],
+      "heard": [
+        "b",
+        "iː",
+        "t"
+      ],
+      "seconds": 0.11,
+      "audio_seconds": 1.275
+    },
+    {
+      "id": "e05",
+      "text": "bat",
+      "expected": [
+        "b",
+        "æ",
+        "t"
+      ],
+      "heard": [
+        "b",
+        "æ",
+        "t"
+      ],
+      "seconds": 0.093,
+      "audio_seconds": 1.225
+    },
+    {
+      "id": "e06",
+      "text": "but",
+      "expected": [
+        "b",
+        "ʌ",
+        "t"
+      ],
+      "heard": [
+        "b",
+        "ɑː",
+        "t"
+      ],
+      "seconds": 0.087,
+      "audio_seconds": 1.2
+    },
+    {
+      "id": "e07",
+      "text": "very",
+      "expected": [
+        "v",
+        "ɛ",
+        "ɹ",
+        "i"
+      ],
+      "heard": [
+        "v",
+        "ɛ",
+        "ɹ",
+        "i"
+      ],
+      "seconds": 0.106,
+      "audio_seconds": 1.4
+    },
+    {
+      "id": "e08",
+      "text": "berry",
+      "expected": [
+        "b",
+        "ɛ",
+        "ɹ",
+        "i"
+      ],
+      "heard": [
+        "b",
+        "ɛ",
+        "ɹ",
+        "i"
+      ],
+      "seconds": 0.098,
+      "audio_seconds": 1.4
+    },
+    {
+      "id": "e09",
+      "text": "van",
+      "expected": [
+        "v",
+        "æ",
+        "n"
+      ],
+      "heard": [
+        "v",
+        "ɛ",
+        "n"
+      ],
+      "seconds": 0.092,
+      "audio_seconds": 1.35
+    },
+    {
+      "id": "e10",
+      "text": "ban",
+      "expected": [
+        "b",
+        "æ",
+        "n"
+      ],
+      "heard": [
+        "b",
+        "æ",
+        "n"
+      ],
+      "seconds": 0.106,
+      "audio_seconds": 1.35
+    },
+    {
+      "id": "e11",
+      "text": "think",
+      "expected": [
+        "θ",
+        "ɪ",
+        "ŋ",
+        "k"
+      ],
+      "heard": [
+        "θ",
+        "ɪ",
+        "ŋ",
+        "k"
+      ],
+      "seconds": 0.084,
+      "audio_seconds": 1.275
+    },
+    {
+      "id": "e12",
+      "text": "thin",
+      "expected": [
+        "θ",
+        "ɪ",
+        "n"
+      ],
+      "heard": [
+        "θ",
+        "ɛ",
+        "n"
+      ],
+      "seconds": 0.091,
+      "audio_seconds": 1.325
+    },
+    {
+      "id": "e13",
+      "text": "this",
+      "expected": [
+        "ð",
+        "ɪ",
+        "s"
+      ],
+      "heard": [
+        "ð",
+        "ɪ",
+        "s"
+      ],
+      "seconds": 0.089,
+      "audio_seconds": 1.225
+    },
+    {
+      "id": "e14",
+      "text": "those",
+      "expected": [
+        "ð",
+        "oʊ",
+        "z"
+      ],
+      "heard": [
+        "ð",
+        "oʊ",
+        "z"
+      ],
+      "seconds": 0.097,
+      "audio_seconds": 1.4
+    },
+    {
+      "id": "e15",
+      "text": "house",
+      "expected": [
+        "h",
+        "aʊ",
+        "s"
+      ],
+      "heard": [
+        "h",
+        "aʊ",
+        "s"
+      ],
+      "seconds": 0.129,
+      "audio_seconds": 1.275
+    },
+    {
+      "id": "e16",
+      "text": "hello",
+      "expected": [
+        "h",
+        "ə",
+        "l",
+        "oʊ"
+      ],
+      "heard": [
+        "h",
+        "ɛ",
+        "l",
+        "oʊ"
+      ],
+      "seconds": 0.105,
+      "audio_seconds": 1.325
+    },
+    {
+      "id": "e17",
+      "text": "about",
+      "expected": [
+        "ə",
+        "b",
+        "aʊ",
+        "t"
+      ],
+      "heard": [
+        "ɐ",
+        "b",
+        "aʊ",
+        "t"
+      ],
+      "seconds": 0.093,
+      "audio_seconds": 1.25
+    },
+    {
+      "id": "e18",
+      "text": "water",
+      "expected": [
+        "w",
+        "ɔː",
+        "ɾ",
+        "ɚ"
+      ],
+      "heard": [
+        "w",
+        "ɑː",
+        "ɾ",
+        "ɚ"
+      ],
+      "seconds": 0.098,
+      "audio_seconds": 1.35
+    },
+    {
+      "id": "e19",
+      "text": "cat",
+      "expected": [
+        "k",
+        "æ",
+        "t"
+      ],
+      "heard": [
+        "k",
+        "ɛ",
+        "t"
+      ],
+      "seconds": 0.099,
+      "audio_seconds": 1.2
+    },
+    {
+      "id": "e20",
+      "text": "cats",
+      "expected": [
+        "k",
+        "æ",
+        "t",
+        "s"
+      ],
+      "heard": [
+        "k",
+        "ɛ",
+        "t",
+        "ts",
+        "s"
+      ],
+      "seconds": 0.135,
+      "audio_seconds": 1.275
+    },
+    {
+      "id": "e21",
+      "text": "stop",
+      "expected": [
+        "s",
+        "t",
+        "ɑː",
+        "p"
+      ],
+      "heard": [
+        "s",
+        "t",
+        "ɑː",
+        "p"
+      ],
+      "seconds": 0.09,
+      "audio_seconds": 1.275
+    },
+    {
+      "id": "e22",
+      "text": "street",
+      "expected": [
+        "s",
+        "t",
+        "ɹ",
+        "iː",
+        "t"
+      ],
+      "heard": [
+        "s",
+        "t",
+        "ɹ",
+        "iː",
+        "t"
+      ],
+      "seconds": 0.099,
+      "audio_seconds": 1.35
+    },
+    {
+      "id": "e23",
+      "text": "I like this ship.",
+      "expected": [
+        "aɪ",
+        "l",
+        "aɪ",
+        "k",
+        "ð",
+        "ɪ",
+        "s",
+        "ʃ",
+        "ɪ",
+        "p"
+      ],
+      "heard": [
+        "aɪ",
+        "l",
+        "aɪ",
+        "k",
+        "ð",
+        "ɪ",
+        "s",
+        "ʃ",
+        "ɪ",
+        "p"
+      ],
+      "seconds": 0.116,
+      "audio_seconds": 1.725
+    },
+    {
+      "id": "e24",
+      "text": "I would like a glass of water.",
+      "expected": [
+        "aɪ",
+        "w",
+        "ʊ",
+        "d",
+        "l",
+        "aɪ",
+        "k",
+        "ə",
+        "ɡ",
+        "l",
+        "æ",
+        "s",
+        "ə",
+        "v",
+        "w",
+        "ɔː",
+        "ɾ",
+        "ɚ"
+      ],
+      "heard": [
+        "aɪ",
+        "w",
+        "ʊ",
+        "d",
+        "l",
+        "aɪ",
+        "k",
+        "ɐ",
+        "ɡ",
+        "l",
+        "æ",
+        "s",
+        "ʌ",
+        "v",
+        "w",
+        "ɔ",
+        "ɾ",
+        "ɚ"
+      ],
+      "seconds": 0.145,
+      "audio_seconds": 2.15
+    }
+  ]
+}

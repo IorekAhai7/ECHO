@@ -12,6 +12,13 @@ class EngineTest {
     private fun samples()=FloatArray(16000) { (0.1*sin(it*0.05)).toFloat() }
     private fun engine(ids:List<Int>)=CtcEngine(object:AcousticModel {override fun infer(normalizedSamples:FloatArray)=ids.map { id ->FloatArray(7) {if(it==id) 8f else -8f}}.toTypedArray()},vocabulary)
     @Test fun referenceScoresHigh() {val r=engine(listOf(0,4,4,0,5,5,0)).assess(samples(),exercise);assertEquals(100,r.score);assertEquals(2,r.words.size)}
+    @Test fun uncertainAcousticsProduceIntermediateScore() {
+        val model=object:AcousticModel {override fun infer(normalizedSamples:FloatArray):Array<FloatArray> {
+            return arrayOf(0,4,0,6,0).map {id -> FloatArray(7) {if(it==id) 8f else if(id==6 && it==5) 7.7f else -8f} }.toTypedArray()
+        }}
+        val r=CtcEngine(model,vocabulary).assess(samples(),exercise)
+        assertTrue(r.score in 60..85)
+    }
     @Test fun wrongPhoneScoresLower() {val r=engine(listOf(0,4,0,6,0)).assess(samples(),exercise);assertTrue(r.score<70);assertTrue(r.words[1].score<10)}
     @Test fun omissionHasNoScoreEvidence() {val r=engine(listOf(0,4,4,0,0)).assess(samples(),exercise);assertEquals(0,r.words[1].score)}
     @Test fun additionPenalizesOverall() {val r=engine(listOf(0,4,0,5,0,6,0)).assess(samples(),exercise);assertEquals(1,r.additions);assertTrue(r.score<100)}

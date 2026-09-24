@@ -14,7 +14,7 @@ class Microphone : AudioCapture {
     private var job: Future<FloatArray>?=null
     private val executor=Executors.newSingleThreadExecutor()
     @Suppress("MissingPermission")
-    override fun start() {
+    @Synchronized override fun start() {
         check(!running)
         val size=maxOf(4096,AudioRecord.getMinBufferSize(16000,AudioFormat.CHANNEL_IN_MONO,AudioFormat.ENCODING_PCM_16BIT))
         val record=AudioRecord(MediaRecorder.AudioSource.VOICE_RECOGNITION,16000,AudioFormat.CHANNEL_IN_MONO,AudioFormat.ENCODING_PCM_16BIT,size)
@@ -30,11 +30,11 @@ class Microphone : AudioCapture {
             pcm.copyOf(count)
         }
     }
-    override fun stop(): FloatArray {
+    @Synchronized override fun stop(): FloatArray {
         running=false
         return try { recorder?.stop();job?.get()?:floatArrayOf() } finally {recorder?.release();recorder=null;job=null}
     }
-    override fun cancel() { if(recorder!=null) runCatching {stop()} }
+    @Synchronized override fun cancel() { if(recorder!=null) runCatching {stop()} }
     fun close() {cancel();executor.shutdown()}
 }
 interface AudioPlayback { fun playReference(id: String, onDone: ()->Unit); fun stop() }
