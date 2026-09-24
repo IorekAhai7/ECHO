@@ -1,0 +1,1 @@
+<resources><style name="EchoTheme" parent="android:style/Theme.Material.NoActionBar"><item name="android:fontFamily">sans</item><item name="android:colorAccent">#BCDCCB</item><item name="android:windowLightStatusBar">false</item><item name="android:windowBackground">#101B22</item></style></resources>

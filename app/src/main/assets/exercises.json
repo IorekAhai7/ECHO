@@ -1,0 +1,487 @@
+[
+  {
+    "id": "e01",
+    "text": "ship",
+    "group": "Vocales",
+    "tip": "Relaja la lengua para /ɪ/. No alargues la vocal como en sheep.",
+    "tts": "ʃˈɪp",
+    "words": [
+      {
+        "text": "ship",
+        "phones": [
+          "ʃ",
+          "ɪ",
+          "p"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e02",
+    "text": "sheep",
+    "group": "Vocales",
+    "tip": "Eleva la lengua para /iː/ y mantén la vocal. Contrasta con ship.",
+    "tts": "ʃˈiːp",
+    "words": [
+      {
+        "text": "sheep",
+        "phones": [
+          "ʃ",
+          "iː",
+          "p"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e03",
+    "text": "bit",
+    "group": "Vocales",
+    "tip": "Usa una vocal relajada /ɪ/ y termina con /t/, sin añadir una e.",
+    "tts": "bˈɪt",
+    "words": [
+      {
+        "text": "bit",
+        "phones": [
+          "b",
+          "ɪ",
+          "t"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e04",
+    "text": "beat",
+    "group": "Vocales",
+    "tip": "La vocal /iː/ es más tensa que la de bit. Conserva la consonante final.",
+    "tts": "bˈiːt",
+    "words": [
+      {
+        "text": "beat",
+        "phones": [
+          "b",
+          "iː",
+          "t"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e05",
+    "text": "bat",
+    "group": "Vocales",
+    "tip": "Abre la mandíbula para /æ/: no es exactamente una a española.",
+    "tts": "bˈæt",
+    "words": [
+      {
+        "text": "bat",
+        "phones": [
+          "b",
+          "æ",
+          "t"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e06",
+    "text": "but",
+    "group": "Vocales",
+    "tip": "La vocal /ʌ/ es central. Evita convertirla en una u española.",
+    "tts": "bˈʌt",
+    "words": [
+      {
+        "text": "but",
+        "phones": [
+          "b",
+          "ʌ",
+          "t"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e07",
+    "text": "very",
+    "group": "Labios y dientes",
+    "tip": "Para /v/, roza el labio inferior con los dientes superiores y deja vibrar la voz.",
+    "tts": "vˈɛɹi",
+    "words": [
+      {
+        "text": "very",
+        "phones": [
+          "v",
+          "ɛ",
+          "ɹ",
+          "i"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e08",
+    "text": "berry",
+    "group": "Labios y dientes",
+    "tip": "Para /b/, junta ambos labios y luego ábrelos. Compáralo con very.",
+    "tts": "bˈɛɹi",
+    "words": [
+      {
+        "text": "berry",
+        "phones": [
+          "b",
+          "ɛ",
+          "ɹ",
+          "i"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e09",
+    "text": "van",
+    "group": "Labios y dientes",
+    "tip": "Mantén el roce de /v/. No cierres los dos labios como para /b/.",
+    "tts": "vˈæn",
+    "words": [
+      {
+        "text": "van",
+        "phones": [
+          "v",
+          "æ",
+          "n"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e10",
+    "text": "ban",
+    "group": "Labios y dientes",
+    "tip": "Cierra los dos labios para /b/; después abre la mandíbula en /æ/.",
+    "tts": "bˈæn",
+    "words": [
+      {
+        "text": "ban",
+        "phones": [
+          "b",
+          "æ",
+          "n"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e11",
+    "text": "think",
+    "group": "TH",
+    "tip": "Asoma ligeramente la lengua entre los dientes y sopla sin voz para /θ/.",
+    "tts": "θˈɪŋk",
+    "words": [
+      {
+        "text": "think",
+        "phones": [
+          "θ",
+          "ɪ",
+          "ŋ",
+          "k"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e12",
+    "text": "thin",
+    "group": "TH",
+    "tip": "Para /θ/, deja pasar aire entre lengua y dientes. No lo sustituyas por /t/ o /s/.",
+    "tts": "θˈɪn",
+    "words": [
+      {
+        "text": "thin",
+        "phones": [
+          "θ",
+          "ɪ",
+          "n"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e13",
+    "text": "this",
+    "group": "TH",
+    "tip": "Coloca la lengua entre los dientes y añade vibración de voz para /ð/.",
+    "tts": "ðˈɪs",
+    "words": [
+      {
+        "text": "this",
+        "phones": [
+          "ð",
+          "ɪ",
+          "s"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e14",
+    "text": "those",
+    "group": "TH",
+    "tip": "Empieza con /ð/ sonoro y termina con /z/, también con vibración.",
+    "tts": "ðˈoʊz",
+    "words": [
+      {
+        "text": "those",
+        "phones": [
+          "ð",
+          "oʊ",
+          "z"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e15",
+    "text": "house",
+    "group": "Aire",
+    "tip": "La /h/ es una salida suave de aire; evita una jota fuerte. Desliza /aʊ/.",
+    "tts": "hˈaʊs",
+    "words": [
+      {
+        "text": "house",
+        "phones": [
+          "h",
+          "aʊ",
+          "s"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e16",
+    "text": "hello",
+    "group": "Aire",
+    "tip": "Deja salir aire en /h/. La primera vocal es relajada; destaca la segunda sílaba.",
+    "tts": "həlˈoʊ",
+    "words": [
+      {
+        "text": "hello",
+        "phones": [
+          "h",
+          "ə",
+          "l",
+          "oʊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e17",
+    "text": "about",
+    "group": "Schwa",
+    "tip": "La primera vocal /ə/ es breve y relajada. Da el énfasis a bout.",
+    "tts": "əbˈaʊt",
+    "words": [
+      {
+        "text": "about",
+        "phones": [
+          "ə",
+          "b",
+          "aʊ",
+          "t"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e18",
+    "text": "water",
+    "group": "Palabras",
+    "tip": "Escucha la referencia americana. La t puede sonar como un toque breve; la r final no vibra como en español.",
+    "tts": "wˈɔːɾɚ",
+    "words": [
+      {
+        "text": "water",
+        "phones": [
+          "w",
+          "ɔː",
+          "ɾ",
+          "ɚ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e19",
+    "text": "cat",
+    "group": "Finales",
+    "tip": "Cierra con /t/ sin agregar una vocal. No hace falta una explosión fuerte.",
+    "tts": "kˈæt",
+    "words": [
+      {
+        "text": "cat",
+        "phones": [
+          "k",
+          "æ",
+          "t"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e20",
+    "text": "cats",
+    "group": "Finales",
+    "tip": "Conserva /t/ y /s/ al final. Evita añadir una e entre las consonantes.",
+    "tts": "kˈæts",
+    "words": [
+      {
+        "text": "cats",
+        "phones": [
+          "k",
+          "æ",
+          "t",
+          "s"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e21",
+    "text": "stop",
+    "group": "Grupos",
+    "tip": "Empieza directamente con /s/. Evita decir estop; termina cerrando los labios.",
+    "tts": "stˈɑːp",
+    "words": [
+      {
+        "text": "stop",
+        "phones": [
+          "s",
+          "t",
+          "ɑː",
+          "p"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e22",
+    "text": "street",
+    "group": "Grupos",
+    "tip": "Une /s/, /t/ y /ɹ/ sin una vocal inicial. La r inglesa no se golpea.",
+    "tts": "stɹˈiːt",
+    "words": [
+      {
+        "text": "street",
+        "phones": [
+          "s",
+          "t",
+          "ɹ",
+          "iː",
+          "t"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e23",
+    "text": "I like this ship.",
+    "group": "Frases",
+    "tip": "Distingue la vocal relajada de ship. Practica primero this y luego une la frase.",
+    "tts": "aɪ lˈaɪk ðɪs ʃˈɪp.",
+    "words": [
+      {
+        "text": "I",
+        "phones": [
+          "aɪ"
+        ]
+      },
+      {
+        "text": "like",
+        "phones": [
+          "l",
+          "aɪ",
+          "k"
+        ]
+      },
+      {
+        "text": "this",
+        "phones": [
+          "ð",
+          "ɪ",
+          "s"
+        ]
+      },
+      {
+        "text": "ship",
+        "phones": [
+          "ʃ",
+          "ɪ",
+          "p"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e24",
+    "text": "I would like a glass of water.",
+    "group": "Frases",
+    "tip": "Destaca like, glass y water. Relaja a y of. El MVP no puntúa todavía el ritmo ni el acento de frase.",
+    "tts": "aɪ wʊd lˈaɪk ə ɡlˈæs əv wˈɔːɾɚ.",
+    "words": [
+      {
+        "text": "I",
+        "phones": [
+          "aɪ"
+        ]
+      },
+      {
+        "text": "would",
+        "phones": [
+          "w",
+          "ʊ",
+          "d"
+        ]
+      },
+      {
+        "text": "like",
+        "phones": [
+          "l",
+          "aɪ",
+          "k"
+        ]
+      },
+      {
+        "text": "a",
+        "phones": [
+          "ə"
+        ]
+      },
+      {
+        "text": "glass",
+        "phones": [
+          "ɡ",
+          "l",
+          "æ",
+          "s"
+        ]
+      },
+      {
+        "text": "of",
+        "phones": [
+          "ə",
+          "v"
+        ]
+      },
+      {
+        "text": "water",
+        "phones": [
+          "w",
+          "ɔː",
+          "ɾ",
+          "ɚ"
+        ]
+      }
+    ]
+  }
+]

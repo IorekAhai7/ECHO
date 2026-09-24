@@ -1,0 +1,16 @@
+ECHO — experimental offline pronunciation coach
+
+Original application code and exercises: ECHO contributors.
+
+Acoustic model: Meta / Facebook wav2vec2-xlsr-53-espeak-cv-ft, Apache-2.0. ONNX INT8 conversion by iwillsolvehardestproblem, Apache-2.0. Upstream weights converted and quantized; ECHO does not train or modify them. Model card: https://huggingface.co/facebook/wav2vec2-xlsr-53-espeak-cv-ft
+
+Reference audio: generated locally with Kokoro-82M v1.0, voice af_heart, by hexgrad and contributors; ONNX conversion by onnx-community. Both model cards declare Apache-2.0. ECHO distributes generated WAVs, not this TTS model. References are synthetic and await human phonetic review.
+
+ONNX Runtime 1.22.0: Copyright Microsoft Corporation. MIT License.
+Kotlin standard library 1.9.24: JetBrains, Apache-2.0.
+Android platform: Android Open Source Project; platform fonts and widgets are used, not copied.
+
+Full MIT and Apache license texts are included in assets/licenses in this application and the repository. ONNX Runtime's third-party notices accompany its bundled native binaries.
+
+Source, exact versions, license links and known limitations:
+https://github.com/IorekAhai7/ECHO
