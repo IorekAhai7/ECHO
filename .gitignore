@@ -1,0 +1,14 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+app/src/main/assets/models/*.onnx
+work/
+*.jks
+*.keystore
+__pycache__/
+.venv/
+
+:memory:.ses
